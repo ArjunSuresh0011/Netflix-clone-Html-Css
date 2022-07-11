@@ -58,12 +58,13 @@ nav ul li button{
 .section-top{
     width: 100%;
     padding-top: 150px;
-    padding-bottom: 200px;
+    padding-bottom: 120px;
     background: url("../images/section-background.jpg");
     background-blend-mode:multiply;
     background-color: rgba(0, 0, 0, 0.627);
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 10px solid #333;
 }
 
 /*Header section body */
@@ -110,3 +111,43 @@ nav ul li button{
     display: flex;
     justify-content: center;
 }
+
+/*Enjoy tv section*/
+
+.enjoy-tv{
+    background-color: #000;
+    color: #FFFFFF;
+    border-bottom: 10px solid #333;
+}
+.enjoy-tv .enjoy{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.enjoy img{
+    max-width: 500px;
+    position: absolute;
+    right: 50px;
+    
+    
+}
+.enjoy h1{
+    font-size: 60px;
+    padding-top: 100px;
+}
+.enjoy p{
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.enjoy .tv-image{
+
+}
+.enjoy .enjoy-video{
+    max-width: 450px;
+    max-height:450px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
