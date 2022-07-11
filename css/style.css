@@ -118,36 +118,43 @@ nav ul li button{
     background-color: #000;
     color: #FFFFFF;
     border-bottom: 10px solid #333;
+    z-index: 1;
 }
-.enjoy-tv .enjoy{
+.enjoy-tv .enjoy-div{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-bottom: 50px;
+    padding-left: 50px;
 }
-.enjoy img{
+.enjoy-div img{
     max-width: 500px;
-    position: absolute;
-    right: 50px;
-    
-    
+    background-color:transparent;
 }
-.enjoy h1{
-    font-size: 60px;
+.tv-div{
+    background-color: #000;
+    display: flex;
+    max-width: 500px;
+    z-index: 1;
+    padding-top: 40px;
+}
+.enjoy-div h1{
+    font-size: 50px;
     padding-top: 100px;
 }
-.enjoy p{
-    font-size: 30px;
+.enjoy-div p{
+    font-size: 26px;
     line-height: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 90px;
 }
-.enjoy .tv-image{
-
-}
-.enjoy .enjoy-video{
-    max-width: 450px;
-    max-height:450px;
+.enjoy-div .enjoy-video{
+    max-width: 390px;
+    max-height:480px;
     padding-bottom: 100px;
-    padding-top: 50px;
+    padding-top: 60px;
+    z-index: -1;
+    position:relative;
+    right: 90%;
+    top: 10px;
 }
 
